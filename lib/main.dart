@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      //this is the title
       title: "Math clock",
       theme: Provider.of<ThemesProvider>(context).themeData,
       home: HomeScreen(),

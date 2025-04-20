@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       //this is the title
       title: "Math clock",
+      //this is the theme
       theme: Provider.of<ThemesProvider>(context).themeData,
       home: HomeScreen(),
     );
